@@ -81,7 +81,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | ------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------- |
 | `image.registry`    | kiam image registry                                                                                  | `docker.io`            |
 | `image.repository`  | kiam image name                                                                                      | `bitnami/kiam`         |
-| `image.tag`         | kiam image tag                                                                                       | `4.2.0-debian-11-r118` |
+| `image.tag`         | kiam image tag                                                                                       | `4.2.0-debian-11-r127` |
 | `image.digest`      | kiam image digest in the way sha256:aa.... Please note this parameter, if set, will override the tag | `""`                   |
 | `image.pullPolicy`  | kiam image pull policy                                                                               | `IfNotPresent`         |
 | `image.pullSecrets` | Specify docker-registry secret names as an array                                                     | `[]`                   |
@@ -445,7 +445,7 @@ For further information, you may check the [official notes](https://github.com/u
 
 ## License
 
-Copyright &copy; 2023 Bitnami
+Copyright &copy; 2023 VMware, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
